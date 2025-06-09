@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="deserializedVehiclesAnchorPane" prefHeight="473.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.etf.project.gui.DeserializationController">
+    <children>
+        <MenuBar prefHeight="26.0" prefWidth="747.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Map">
+                    <MenuItem onAction="#showMapScene" text="Show Map" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Vehicles">
+                    <MenuItem onAction="#showVehiclesScene" text="Show Vehicles" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Malfunctions">
+                    <MenuItem onAction="#showMalfunctionsScene" text="Show Malfunctions" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Reports">
+                    <MenuItem onAction="#showReportsScene" text="Show Reports" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Deserialized vehicles">
+                    <MenuItem onAction="#showDeserializedVehiclesScene" text="Show Deserialized Vehicles" />
+                </Menu>
+            </menus>
+        </MenuBar>
+      <TableView fx:id="deserializationTable" layoutX="36.0" layoutY="101.0" prefHeight="306.0" prefWidth="670.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="115.20003509521484" text="ID" />
+          <TableColumn fx:id="purchasePrice" prefWidth="144.79998779296875" text="Purchase price" />
+            <TableColumn fx:id="manufacturer" prefWidth="144.00006103515625" text="Manufacturer" />
+            <TableColumn fx:id="model" prefWidth="125.60000610351562" text="Model" />
+            <TableColumn fx:id="repairCosts" prefWidth="144.0" text="Repair Costs" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="54.0" prefHeight="18.0" prefWidth="747.0" text="Deserilized vehicles with malfunctions">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>

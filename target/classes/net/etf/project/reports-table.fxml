@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="reportsAnchorePane" prefHeight="728.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.etf.project.gui.ReportsController">
+    <children>
+        <MenuBar prefHeight="26.0" prefWidth="747.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Map">
+                    <MenuItem onAction="#showMapScene" text="Show Map" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Vehicles">
+                    <MenuItem onAction="#showVehiclesScene" text="Show Vehicles" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Malfunctions">
+                    <MenuItem onAction="#showMalfunctionsScene" text="Show Malfunctions" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Reports">
+                    <MenuItem onAction="#showReportsScene" text="Show Reports" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Deserialized vehicles">
+                    <MenuItem onAction="#showDeserializedVehiclesScene" text="Show Deserialized Vehicles" />
+                </Menu>
+            </menus>
+        </MenuBar>
+      <Label alignment="CENTER" layoutX="4.0" layoutY="39.0" prefHeight="18.0" prefWidth="938.0" text="Summary Report" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="summaryTable" layoutX="4.0" layoutY="83.0" prefHeight="100.0" prefWidth="938.0">
+        <columns>
+          <TableColumn fx:id="incomeSummary" prefWidth="65.59997272491455" text="Income" />
+          <TableColumn fx:id="discountsSummary" prefWidth="94.39996337890625" text="Discounts" />
+            <TableColumn fx:id="promotionsSummary" prefWidth="81.60005187988281" text="Promotions" />
+            <TableColumn fx:id="wideAreaSummary" prefWidth="121.60003662109375" text="Wide Area Income" />
+            <TableColumn fx:id="narrowAreaSummary" prefWidth="149.60003662109375" text="Narrow Area Income" />
+            <TableColumn fx:id="maintenanceSummary" minWidth="0.0" prefWidth="118.4000244140625" text="Maintenance Cost" />
+            <TableColumn fx:id="repairSummary" prefWidth="95.99993896484375" text="Repair Cost" />
+            <TableColumn fx:id="companyCosts" prefWidth="115.2000732421875" text="Company Costs" />
+            <TableColumn fx:id="tax" prefWidth="91.20004882812498" text="Tax" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="223.0" prefHeight="18.0" prefWidth="938.0" text="Daily Reports" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="dailyTable" layoutX="4.0" layoutY="264.0" prefHeight="200.0" prefWidth="938.0">
+        <columns>
+          <TableColumn fx:id="date" prefWidth="103.99999713897705" text="Date" />
+          <TableColumn fx:id="incomeDaily" prefWidth="82.4000244140625" text="Income" />
+            <TableColumn fx:id="discountsDaily" prefWidth="118.40003967285156" text="Discounts" />
+            <TableColumn fx:id="promotionsDaily" prefWidth="132.79998779296875" text="Promotions" />
+            <TableColumn fx:id="wideAreaDaily" prefWidth="138.4000244140625" text="Wide Area Income" />
+            <TableColumn fx:id="narrowAreaDaily" prefWidth="140.800048828125" text="Narrow Area Income" />
+            <TableColumn fx:id="maintenanceDaily" prefWidth="117.60009765625" text="Maintenance Cost" />
+            <TableColumn fx:id="repairDaily" prefWidth="111.199951171875" text="Repair Cost" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>
