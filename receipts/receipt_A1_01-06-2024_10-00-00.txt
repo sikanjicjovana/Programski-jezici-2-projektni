@@ -1,0 +1,12 @@
+Receipt for rental:
+Rental:
+date and time: Sat Jun 01 10:00:00 CEST 2024
+user name: K5
+vehicle id: A1
+start location: (14 , 17)
+end location: (9 , 19)
+duration: 13.0
+identification document: Passport
+driving license number: 463462
+Total price: 0.0
+Ride area: Wide area

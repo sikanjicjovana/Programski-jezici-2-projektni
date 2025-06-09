@@ -1,0 +1,13 @@
+Receipt for rental:
+Rental:
+date and time: Mon Jun 03 09:30:00 CEST 2024
+user name: K2
+vehicle id: A2
+start location: (7 , 9)
+end location: (16 , 1)
+duration: 6.0
+identification document: ID Card
+driving license number: 411044
+Total price: 720.0
+Ride area: Wide area
+Promotion applied : 180.0 ( 20.0 % )

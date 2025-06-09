@@ -1,0 +1,12 @@
+Receipt for rental:
+Rental:
+date and time: Mon Jun 03 09:00:00 CEST 2024
+user name: K4
+vehicle id: A1
+start location: (16 , 19)
+end location: (16 , 4)
+duration: 11.0
+identification document: Passport
+driving license number: 87624
+Total price: 1650.0
+Ride area: Wide area

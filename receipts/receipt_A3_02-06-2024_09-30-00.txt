@@ -1,0 +1,12 @@
+Receipt for rental:
+Rental:
+date and time: Sun Jun 02 09:30:00 CEST 2024
+user name: K4
+vehicle id: A3
+start location: (14 , 18)
+end location: (12 , 2)
+duration: 2.0
+identification document: ID Card
+driving license number: 563983
+Total price: 300.0
+Ride area: Wide area

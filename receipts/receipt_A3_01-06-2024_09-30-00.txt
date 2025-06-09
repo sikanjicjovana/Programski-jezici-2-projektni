@@ -1,0 +1,12 @@
+Receipt for rental:
+Rental:
+date and time: Sat Jun 01 09:30:00 CEST 2024
+user name: K2
+vehicle id: A3
+start location: (15 , 15)
+end location: (17 , 17)
+duration: 8.0
+identification document: Passport
+driving license number: 432428
+Total price: 1200.0
+Ride area: Wide area

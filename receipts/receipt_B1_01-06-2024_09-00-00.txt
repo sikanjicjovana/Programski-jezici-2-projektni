@@ -1,0 +1,13 @@
+Receipt for rental:
+Rental:
+date and time: Sat Jun 01 09:00:00 CEST 2024
+user name: K2
+vehicle id: B1
+start location: (2 , 1)
+end location: (7 , 13)
+duration: 4.0
+identification document:  / 
+driving license number: -1
+Total price: 0.0
+Ride area: Wide area
+Promotion applied : 0.0 ( 20.0 % )

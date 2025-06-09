@@ -1,0 +1,9 @@
+module:net.etf.project
+net.etf.project.financial
+net.etf.project.gui
+net.etf.project.model.rental
+net.etf.project.model.vehicles
+net.etf.project.serialization
+net.etf.project.simulation
+net.etf.project.statistics
+net.etf.project.util
